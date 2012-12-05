@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ffffff"
+			android:textSize="20sp" android:text="@string/setting_sortBy" />
+		<RadioGroup android:id="@+id/sortWay"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:checkedButton="@+id/sortByName" android:orientation="horizontal"
+			android:gravity="right">
+			<RadioButton android:text="@string/setting_sortByNm" android:id="@+id/sortByName" android:gravity="right"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+			<RadioButton android:text="@string/setting_sortBySts" android:id="@+id/sortBySts" android:gravity="right"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+	<TextView android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#ffffff"
+    />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ffffff"
+			android:textSize="20sp" android:text="@string/setting_FstV" />
+		<RadioGroup android:id="@+id/firstView"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:checkedButton="@+id/allLine" android:orientation="horizontal"
+			android:gravity="right">
+			<RadioButton android:text="@string/setting_AllLine" android:id="@+id/allLine" android:gravity="right"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+			<RadioButton android:text="@string/setting_FavLine" android:id="@+id/favLine" android:gravity="right"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">大连纵横</string>
+    
+    <string name="error">错误</string>
+    <string name="error_network_offline">未能检测到有效的网络连接，请检查网络设置。</string>
+    <string name="error_cannot_get_data">无法连接到路况服务器，这可能是由于网速缓慢引起的。请手动刷新重试。</string>
+    <string name="error_database_inacitve">抱歉，路况服务器正在维护中，请稍候再试。</string>
+    <string name="exit">退出</string>
+    <string name="doing">正在尝试获取数据...</string>
+    <string name="createAt">路况获取时间： </string>
+    
+    <string name="all_lines">全部路线 </string>
+    <string name="fav_lines">收藏路线 </string>
+    
+    <string name="menu_refresh">刷新 </string>
+    <string name="menu_setting">设置 </string>
+    <string name="menu_about">关于 </string>
+    
+    <string name="menu_about_msg">大连纵横（路况查询应用）\nVersion： 1.2\n技术支持：lsd751@gmail.com</string>
+    
+    <string name="setting_sortBy">信息排序按 </string>
+    <string name="setting_sortByNm">路线</string>
+    <string name="setting_sortBySts">路况 </string>
+    <string name="setting_FstV">初始画面为 </string>
+    <string name="setting_AllLine">全部</string>
+    <string name="setting_FavLine">收藏 </string>
+    
+    <string name="addFav_title">收藏路线 </string>
+    <string name="delav_title">取消收藏 </string>
+    <string name="addFav_msg">确定收藏这条路线吗？\n</string>
+    <string name="delFav_msg">确定取消收藏这条路线吗？\n</string>
+</resources>
